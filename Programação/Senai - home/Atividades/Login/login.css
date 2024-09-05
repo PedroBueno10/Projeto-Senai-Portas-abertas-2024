@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+  background-image: url(..);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(120deg, #7B68EE, #8A2BE2, #800080);
+*/
+
+body {
+  background-image: url(../img/20bd68b5a248bb191178bd9b98b53a76.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px 40px;
+  width: 300px;
+  height: 300px;
+  color: #efefef;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container2 {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  width: 280px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  font-size: 25px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .5s;
+}
+
+a:hover {
+  background: #7336ff;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #7336ff,
+              0 0 25px #7336ff,
+              0 0 50px #7336ff,
+              0 0 100px #7336ff;
+}
+
+.email {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-bottom: 15px;
+}
+
+.password {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-bottom: 45px;
+}
+
+.email input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #7336ff;
+  border-radius: 2px;
+  padding: 5px;
+  display: flex;
+  color: #fff;
+}
+.email input:focus {
+  outline: none;
+  border-bottom: 3px solid #7336ff;
+}
+
+.password input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #7336ff;
+  border-radius: 2px;
+  padding: 5px;
+  color: #fff;
+}
+.password input:focus {
+  outline: none;
+  border-bottom: 3px solid #7336ff;
+}

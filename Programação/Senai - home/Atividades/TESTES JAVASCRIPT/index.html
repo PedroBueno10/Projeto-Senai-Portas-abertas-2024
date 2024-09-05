@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personalized Welcome Message</title>
+    </head>
+    <style>
+
+      body{
+        text-align: center;
+        margin-top: 2.5%;
+      }
+      .caixatexto{
+        font-size: 20px;
+      }
+      .texto{
+        font-size: 30px;
+      }
+      .botao{
+        font-size: 20px;
+      }
+      #mensagem-boas-vindas{
+        font-size: 35px;
+      }
+      h1{
+        margin-bottom: 20%;
+        font-size: 50px;
+      }
+      
+    </style>
+  <body>
+    
+    <h1>Escolinha do TIPO</h1>
+
+      <label class="texto" for="nome">Digite seu nome:</label>
+      <input class="caixatexto" type="text" id="nome" placeholder="Digite seu nome">
+      <button class="botao" onclick="exibirMensagem()">Clique para receber as boas-vindas</button>
+      <p id="mensagem-boas-vindas"></p>
+  </body>
+
+  <script>
+    function exibirMensagem() {
+        var nome = document.getElementById("nome").value;
+        var mensagem = "Olá, " + nome + "! Bem-vindo!";
+        document.getElementById("mensagem-boas-vindas").textContent = mensagem;
+    }
+    
+  </script>
+</html>

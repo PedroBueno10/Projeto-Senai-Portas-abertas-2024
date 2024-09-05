@@ -1,0 +1,236 @@
+
+.rectangle-11 {
+    background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 327px;
+    height: 33px;
+    position: absolute;
+    left: 18px;
+    top: 561px;
+  }
+  .rectangle-15 {
+    background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 327px;
+    height: 31px;
+    position: absolute;
+    left: 18px;
+    top: 623px;
+  }
+  .rectangle-16 {
+    background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 327px;
+    height: 117px;
+    position: absolute;
+    left: 18px;
+    top: 746px;
+  }
+  .rectangle-36 {
+    background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 327px;
+    height: 32px;
+    position: absolute;
+    left: 18px;
+    top: 681px;
+  }
+  .nome {
+    color: #000000;
+    text-align: left;
+    font: var(--fontedosite, 400 15px "Noto Serif JP", sans-serif);
+    position: absolute;
+    left: 31px;
+    top: 536.4px;
+    width: 65.74px;
+    height: 24.78px;
+    transform-origin: 0 0;
+    transform: rotate(-0.319deg) scale(1, 1);
+  }
+  .e-mail {
+    color: #000000;
+    text-align: center;
+    font: var(--fontedosite, 400 15px "Noto Serif JP", sans-serif);
+    position: absolute;
+    left: 10px;
+    top: 596px;
+    width: 88px;
+    height: 16px;
+  }
+  .assunto {
+    color: #000000;
+    text-align: center;
+    font: var(--fontedosite, 400 15px "Noto Serif JP", sans-serif);
+    position: absolute;
+    left: 0px;
+    top: 658px;
+    width: 122px;
+    height: 18px;
+  }
+  .mensagem {
+    color: #000000;
+    text-align: center;
+    font: var(--fontedosite, 400 15px "Noto Serif JP", sans-serif);
+    position: absolute;
+    left: 1px;
+    top: 722px;
+    width: 139px;
+    height: 24px;
+  }
+  .obrigat-rio {
+    color: #000000;
+    text-align: center;
+    font: var(--fontedosite, 400 15px "Noto Serif JP", sans-serif);
+    position: absolute;
+    left: 70px;
+    top: 597px;
+    width: 149px;
+    height: 22px;
+  }
+  .obrigat-rio2 {
+    color: #000000;
+    text-align: center;
+    font: var(--fontedosite, 400 15px "Noto Serif JP", sans-serif);
+    position: absolute;
+    left: 70px;
+    top: 535px;
+    width: 149px;
+    height: 27px;
+  }
+  .rectangle-37 {
+    background: #3771a7;
+    border-radius: 10px;
+    width: 87px;
+    height: 30px;
+    position: absolute;
+    left: 259px;
+    top: 898px;
+  }
+  .fale-conosco {
+    color: #001768;
+    text-align: center;
+    font: 400 24px "Noto Serif JP", sans-serif;
+    position: absolute;
+    left: 71px;
+    top: 495px;
+    width: 219px;
+    height: 35px;
+  }
+  .topo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+  .queremos-te-ouvir-fa-a-uma-sugest-o-um-conselho-uma-cr-tica-ou-um-elogio {
+    color: #000000;
+    text-align: center;
+    font: 400 16px "Noto Serif JP", sans-serif;
+    position: absolute;
+    left: 6px;
+    top: 373px;
+    width: 352px;
+    height: 76px;
+  }
+  .valorizamos-a-sua-opini-o {
+    color: #14315a;
+    text-align: left;
+    font: 400 24px "Noto Serif JP", sans-serif;
+    position: absolute;
+    left: 29px;
+    top: 327px;
+    width: 311px;
+    height: 31px;
+  }
+  .perguntas-frequentes {
+    color: #001768;
+    text-align: left;
+    font: 400 30px "Rufina", sans-serif;
+    position: absolute;
+    left: 32px;
+    top: 102px;
+    width: 335px;
+    height: 41px;
+  }
+  .quais-s-o-os-conv-nios-que-atendem {
+    color: #000000;
+    text-align: left;
+    font: 400 16px "Noto Serif JP", sans-serif;
+    position: absolute;
+    left: 20px;
+    top: 161px;
+    width: 312px;
+    height: 21px;
+  }
+  .poss-vel-fechar-algum-plano-interno {
+    color: #000000;
+    text-align: left;
+    font: 400 16px "Noto Serif JP", sans-serif;
+    position: absolute;
+    left: 19px;
+    top: 201px;
+    width: 307px;
+    height: 20px;
+  }
+  .onde-retirar-os-exames {
+    color: #000000;
+    text-align: left;
+    font: 400 16px "Noto Serif JP", sans-serif;
+    position: absolute;
+    left: 19px;
+    top: 237px;
+    width: 323px;
+    height: 20px;
+  }
+  .vector-17 {
+    position: absolute;
+    left: -32px;
+    top: 231px;
+    overflow: visible;
+  }
+  .vector-19 {
+    position: absolute;
+    left: -7px;
+    top: 195px;
+    overflow: visible;
+  }
+  .vector-18 {
+    position: absolute;
+    left: -26px;
+    top: 269.5px;
+    overflow: visible;
+  }
+  .vector2 {
+    position: absolute;
+    left: 335.14px;
+    top: 178.91px;
+    transform: translate(-15.14px, -10.91px);
+    overflow: visible;
+  }
+  .vector3 {
+    opacity: 0.800000011920929;
+    position: absolute;
+    left: 347.14px;
+    top: 217.91px;
+    transform: translate(-15.14px, -10.91px);
+    overflow: visible;
+  }
+  .vector4 {
+    position: absolute;
+    left: 233.14px;
+    top: 255.91px;
+    transform: translate(-15.14px, -10.91px);
+    overflow: visible;
+  }

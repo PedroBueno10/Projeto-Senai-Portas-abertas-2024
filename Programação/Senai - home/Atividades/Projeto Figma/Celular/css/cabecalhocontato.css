@@ -1,0 +1,17 @@
+
+.contato * {
+    box-sizing: border-box;
+    padding: 0%;
+  }
+  .contato {
+    background: #ffffff;
+    width: 360px;
+    height: 1074px;
+    position: relative;
+    overflow: hidden;
+  }
+  .logo{
+    width: 360px;
+    height: 64px;
+    background: #A19D9F;
+  }

@@ -1,0 +1,31 @@
+Resultado 1:
+Jogo: Futsal
+Pontos Azul: 1
+Pontos Vermelho: 1
+
+Resultado 2:
+Jogo: Basquete
+Pontos Azul: 0
+Pontos Vermelho: 0
+
+Resultado 3:
+Jogo: Vôlei
+Pontos Azul: 0
+Pontos Vermelho: 0
+
+Resultado 4:
+Jogo: Basquete
+Pontos Azul: 0
+Pontos Vermelho: 0
+
+Resultado 5:
+Jogo: Futsal
+Pontos Azul: 0
+Pontos Vermelho: 0
+
+Resultado 6:
+Jogo: Futsal
+Pontos Azul: 0
+Pontos Vermelho: 0
+
+Futsal - Azul 7 x Vermelho 3

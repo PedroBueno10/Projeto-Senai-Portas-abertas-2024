@@ -1,0 +1,82 @@
+  body{
+  margin: 0;
+}
+
+
+
+.topo {
+  background: var(--cinzabase, #a19d9f);
+  width: 360px;
+  height: 55px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.logo-meio{
+  margin-left: 115px;
+  margin-top: 100px;
+  height: 120px;
+  width: 120px;
+  
+}
+.assunto{
+  margin-top: 0%;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+  font-size: x-large;
+}
+.title{
+  margin-left: 15px;
+  font-size: larger;
+}
+.email{
+  display: flex;
+  justify-content: center;
+}
+.boton{
+  border-radius: 10px;
+  width: 300px;
+  height: 40px
+}
+.senha{
+  margin-top: 20px;
+  margin-left: 15px;
+  font-size: larger;
+}
+
+.password{
+  border-radius: 10px;
+  width: 300px;
+  height: 40px
+}
+.senhas{
+  display: flex;
+  justify-content: center;
+}
+.button{
+  justify-content: space-between;
+  padding: 0%;
+  margin-left: 130px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 80px;
+  height: 40px
+}
+.button{
+  background: #3771A7;
+  color: white;
+}
+.button-login{
+  background: #3771A7;
+  color: white;
+}
+.button-login{
+  justify-content: space-between;
+  padding: 0%;
+  margin-left: 130px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 80px;
+  height: 40px
+}

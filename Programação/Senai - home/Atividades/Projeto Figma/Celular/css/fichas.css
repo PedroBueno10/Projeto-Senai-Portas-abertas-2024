@@ -1,0 +1,66 @@
+.ficha-1{/*cor e tamanho*/
+    background: #EDE1D0;
+    border-radius:50px 50px 50px 50px;
+    width: 335px;
+    height: 130px;
+    margin-top: 35px;
+}
+.ficha-2{/*cor e tamanho*/
+    background: #DCE1F2;
+    border-radius:50px 50px 50px 50px;
+    width: 335px;
+    height: 130px;
+}
+.ficha-3{/*cor e tamanho*/
+    background: #EDE1D0;
+    border-radius:50px 50px 50px 50px;
+    width: 335px;
+    height: 130px;
+}
+.ficha-4{/*cor e tamanho*/
+    background: #DCE1F2;
+    border-radius:50px 50px 50px 50px;
+    width: 335px;
+    height: 130px;
+}
+.todas-as-fichas{
+    height: 600px;
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.ficha-medicos{
+    display: flex;
+    justify-content: end;
+}
+.info{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.assunto1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    font-size: larger;
+}
+.assunto2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    font-size: larger;
+}
+.assunto3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    font-size: larger;
+}
+.assunto4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    font-size: larger;
+}

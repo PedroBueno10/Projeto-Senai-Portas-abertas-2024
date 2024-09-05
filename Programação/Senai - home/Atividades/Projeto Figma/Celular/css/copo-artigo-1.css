@@ -1,0 +1,15 @@
+.Titulo_ArtigoUm-negrito{
+    padding: 25px;
+    font-size: larger;
+    font-weight: bold
+}
+
+.corpoDoTexto{
+    font-size: small;
+    padding: 15px;
+}
+
+.article-one a{
+    text-decoration: none;
+    color: black;
+}

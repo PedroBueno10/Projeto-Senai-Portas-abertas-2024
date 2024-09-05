@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Formulario</title>
+    </head>
+
+  <body>
+    <h1>Recrutamento</h1>
+    <p id="NomeEsobrenome"></p>
+    <p id="cde"></p>
+    <p id="idade"></p>
+
+    <script>
+
+      let pn = prompt('Qual o seu nome?')
+      let sobrenome = prompt('Qual seu sobrenome?')
+      let cde = prompt('Qual seu campo de estudo?')
+      let adnasci = prompt('Qual o ano do seu nascimento?')
+    
+      console.log(` ${pn} ${sobrenome} ${cde} ${adnasci}`)
+    
+    alert(
+      `Recruta cadastrado com sucesso! 
+
+Seu nome é: ${pn} ${sobrenome}
+seu campo de estudo é: ${cde}
+vc tem: ${2023 - adnasci} anos`
+      )
+    
+    </script>
+  </body>
+</html>
+

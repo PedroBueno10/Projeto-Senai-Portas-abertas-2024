@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  background-color: gray;
+  position: absolute;
+  margin-left: 350px;
+} 

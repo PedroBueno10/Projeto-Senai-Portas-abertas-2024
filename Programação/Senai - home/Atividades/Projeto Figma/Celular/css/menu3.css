@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    padding:0%;
+    margin: 0%;
+}
+
+.mobile-menu{
+  cursor: pointer; 
+}
+
+.mobile-menu div{
+  width: 32px;
+  height: 2px;
+  background: black;
+  margin: 8px;
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+}
+body{
+    transition: background-color .5s;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.nav-bar{
+    position: absolute;
+    margin-left: 85%;
+    margin-top: -52px;
+}
+
+
+.sidenav { /* Criando o menu hamburger*/
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+}
+
+
+.lista-navbar{ /* Organizando o menu hamburger*/
+    display: flex;
+    flex-direction: column;
+}
+.linebreak{
+    border-color: 1 px solid rgba(235, 227, 227, 0.808);
+}
+.linebreak-hard{
+    border: 1px solid rgb(50, 49, 49)
+}
+.lista-navbar-perfil{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 3%;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav .lista-navbar-options { /* Editando opçoes do menu*/
+    padding: 10px 10px 10px 32px;
+}
+.lista-navbar-login{
+    padding: 10px 10px 10px 0px;
+    margin-left: 28px;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.side-nav-redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 7%;
+    
+
+    margin-top: calc(100% + 70%);
+}

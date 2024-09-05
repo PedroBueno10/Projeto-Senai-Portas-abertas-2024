@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            height: 100vh;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input type="number" placeholder="Digite um numero" class="numero" onclick="teste()">
+        <input type="button" value="validar" class="botao">
+        <div class="res"></div>
+    </div>
+ 
+
+    <script>
+        const butao = document.querySelector(".botao")
+
+        function teste(){
+            document.querySelector(".res").innerHTML = ""
+        }
+
+
+        function validar(evento) {
+            console.log(evento)
+
+            if((evento.type === 'keypress' && evento.key === "Enter") || evento.type === 'click'){
+                let n = Number(document.querySelector(".numero").value)
+
+                if(n%2 === 0){
+                    document.querySelector(".res").innerHTML = "O número é par"
+                }   else {
+                    document.querySelector(".res").innerHTML = "O número é ímpar"
+                }
+            }
+        }
+       
+
+        document.querySelector(".numero").addEventListener('keypress', validar)
+        butao.addEventListener('click', validar)
+    </script>
+</body>
+</html>
